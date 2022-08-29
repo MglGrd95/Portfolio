@@ -13,7 +13,7 @@ const Home = () => {
         <ul>
           <li><a href='https://github.com/MglGrd95' className='linka'><img src={Github} alt='github' className='linkimg' /> GitHub </a></li>
           <li><a href='https://www.linkedin.com/in/miguel-gerardo'><img src={LinkedIn} alt='linkedin' className='linkimg' />LinkedIn</a></li>
-          <li><a href='/files/resume.docx' download><img src={Resume} alt='resume' className='linkimg'/>Resume</a></li>
+          <li><a href='resume.docx' download><img src={Resume} alt='resume' className='linkimg'/>Resume</a></li>
         </ul>
       </div>
     </div>
