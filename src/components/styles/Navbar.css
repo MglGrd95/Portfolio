@@ -1,0 +1,39 @@
+.navbar {
+  top: 0;
+  display: flex;
+  position: fixed;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  padding: 1rem;
+  overflow: hidden;
+  
+}
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+.navbar li{
+  display: flex;
+}
+.navbar a {
+  display: flex;
+  text-decoration: none;
+  font-size: xx-large;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color:aqua;
+}
+
+@media only screen and (max-width: 912px) and (min-width: 280px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar a {
+    font-size: 3rem;
+  }
+}

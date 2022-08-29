@@ -1,0 +1,106 @@
+.projects {
+    text-align: center;
+    font-size: x-large;
+    height: 100vh;
+    width: 100%;
+}
+.project {
+    display: flex;
+    width: fit-content;
+    color: white;
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+.project ul {
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+.project li {
+    background-color: black;
+}
+.proimg {
+    display: flex;
+    width: 30rem;
+    height: 20rem;
+    margin: 1rem;
+}
+.project a {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-color: white;
+    width: 10rem;
+    text-decoration: none;
+}
+.prolinks{
+    display: flex;
+    gap: 1rem;
+    margin-left: 4rem;
+}
+#portfolio {
+    margin-left: 10rem;
+}
+
+@media only screen and (max-width: 2200px) {
+    .project {
+        margin-left: 1rem;
+    }
+    .project ul {
+        gap: 1rem;
+    }
+    .project li {
+        width: 290px;
+        height: 300px;
+    }
+    .proimg {
+        width: 250px;
+        height: 200px;
+    }
+    .project a {
+        width: 5rem;
+        height: 1.5rem;
+        margin-left: -.5rem;
+        font-size: small;
+    }
+    #portfolio {
+        margin-left: 7rem;
+    }
+
+  }
+  @media only screen and (max-width: 912px) and (min-width: 280px)  {
+    .projects {
+     width: 950px;
+     height: 2500px;
+    }
+    .project {
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+    .project ul {
+        display: block;
+    }
+    .project li {
+        margin-top: 5rem;
+        width: 40rem;
+        height: 30rem;
+    }
+    .proimg {
+        padding-top: 3rem;
+        width: 38rem;
+        height: 22rem;
+    }
+    .project a {
+        margin-left: 7rem;
+        font-size: large;
+        height: 3rem;
+        width: -10rem;
+    }
+    #portfolio {
+        margin-left: 11rem;
+    }
+    .ph1 {
+        padding-top: 2rem;
+    }
+   }

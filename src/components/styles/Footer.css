@@ -1,0 +1,55 @@
+.footer {
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    margin-top: 12rem;
+  }
+  .footLinks {
+    display: flex;
+    color: white;
+    margin: 1rem;
+    font-size: 1.5rem;
+    list-style: none;
+  }
+  .footLinks ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .footLinks a {
+    display: block;
+    text-decoration: none;
+  }
+  .footer p {
+    color: white;
+  }
+  .footimg{
+    width: 1;
+    height: 2rem;
+    display: flex;
+    margin-left: 1.5rem;
+  }
+  .footLinks a:hover{
+    color: aqua;
+  }
+  
+  @media only screen and (max-width: 912px) and (min-width: 280px) {
+    .footer{
+      width: 100%;
+    }
+    .footLinks {
+      font-size: 2rem;
+    }
+    .footLinks ul {
+      gap: 4rem;
+    }
+    .footimg {
+      width: 4rem;
+      height: 4rem;
+    }
+  }

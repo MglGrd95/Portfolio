@@ -1,0 +1,41 @@
+.home{
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    height: 100vh;
+    background-image: url(../images/background1.jpg);
+    background-size: 100% 100%;
+}
+.h1{
+    padding-top: 25rem;
+}
+
+.footLinks{
+    justify-content: center;
+}
+.linkimg {
+    width: 1;
+    height: 2rem;
+    display: flex;
+    margin-left: 1.5rem;
+}
+
+@media only screen and (max-width: 912px) and (min-width: 280px) {
+   .home{
+    width: 59.5rem;
+    height: 2250px;
+    font-size: 5rem;
+   }
+   .h1 {
+    padding-top: 40rem;
+   }
+   .footLinks a {
+    font-size: 3rem;
+   }
+   .linkimg {
+    width: 4rem;
+    height: 5rem;
+    margin-left: 2rem;
+   }
+  }
