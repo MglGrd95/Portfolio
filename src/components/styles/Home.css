@@ -8,18 +8,10 @@
     background-size: 100% 100%;
 }
 .front {
-<<<<<<< HEAD
-    width: 20rem;
-    height: 35rem;
-    margin-top: 7rem;
-}
-
-=======
     margin-top: 6rem;
     width: 18rem;
     height: 30rem;
 }
->>>>>>> 2001301 (commit)
 .footLinks{
     justify-content: center;
     color: aliceblue;
@@ -37,7 +29,6 @@
 @media only screen and (max-width: 912px) and (min-width: 280px) {
    .home{
     width: 59.5rem;
-<<<<<<< HEAD
     height: 1700px;
     font-size: 3rem;
    }
@@ -48,9 +39,6 @@
     margin-top: 5rem;
    }
    .footLinks a {
-=======
-    height: 1800px;
->>>>>>> 2001301 (commit)
     font-size: 3rem;
    }
    .front {
@@ -62,10 +50,6 @@
    .linkimg {
     width: 5rem;
     height: 5rem;
-<<<<<<< HEAD
-    margin-left: 3rem;
-=======
     margin-left: 1rem;
->>>>>>> 2001301 (commit)
    }
   }
