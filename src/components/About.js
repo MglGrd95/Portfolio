@@ -3,6 +3,7 @@ import './styles/About.css'
 import {SiJavascript, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiGit, SiAngularjs, SiGithub} from 'react-icons/si'
 import {AiFillApi} from 'react-icons/ai'
 import Servicenow from './images/servicenow.png'
+import Degree from './images/degree.jpg'
 
 const About = () => {
   return (
@@ -33,6 +34,10 @@ const About = () => {
             <li><SiAngularjs className='icon' id='angular'/>Angular.js</li>
             <li><img src={Servicenow} alt='servicenow' className='service'/>ServiceNow</li>
           </ul>
+      </div>
+      <div className='degree'>
+        <h3>Degree & Certifications</h3>
+        <img src={Degree} alt='Degree' />
       </div>
     </div>
   )

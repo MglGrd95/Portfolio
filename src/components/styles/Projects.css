@@ -1,4 +1,5 @@
 .projects {
+    margin-top: 11rem;
     text-align: center;
     font-size: x-large;
     height: 100vh;
@@ -34,6 +35,12 @@
     width: 10rem;
     text-decoration: none;
 }
+a {
+    color: white;
+}
+.project a:hover {
+    color: aqua;
+}
 .prolinks{
     display: flex;
     gap: 1rem;
@@ -43,7 +50,10 @@
     margin-left: 10rem;
 }
 
-@media only screen and (max-width: 2200px) {
+@media only screen and (max-width: 2200px) and (min-width: 912px) {
+    .projects {
+        margin-top: 15rem;
+    }
     .project {
         margin-left: 1rem;
     }

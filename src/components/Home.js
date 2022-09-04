@@ -3,10 +3,12 @@ import './styles/Home.css'
 import Github from './images/Github.png'
 import LinkedIn from './images/LinkInd.png'
 import Resume from './images/resume.png'
+import Front from './images/front.jpg'
 
 const Home = () => {
   return (
     <div className='home' id='Home'>
+      <img src={Front} alt='Me' className='front'/>
       <h1 className='h1'>Hello I'm Miguel</h1>
       <h3>Welcome to my portfolio!</h3>
       <div className='footLinks'>

@@ -7,12 +7,18 @@
     background-image: url(../images/background1.jpg);
     background-size: 100% 100%;
 }
-.h1{
-    padding-top: 25rem;
+.front {
+    width: 20rem;
+    height: 35rem;
+    margin-top: 7rem;
 }
 
 .footLinks{
     justify-content: center;
+    color: aliceblue;
+}
+.footLinks a:hover{
+    color: aqua;
 }
 .linkimg {
     width: 1;
@@ -24,11 +30,14 @@
 @media only screen and (max-width: 912px) and (min-width: 280px) {
    .home{
     width: 59.5rem;
-    height: 2250px;
-    font-size: 5rem;
+    height: 1700px;
+    font-size: 3rem;
+   }
+   .front {
+    margin-top: 20rem;
    }
    .h1 {
-    padding-top: 40rem;
+    margin-top: 5rem;
    }
    .footLinks a {
     font-size: 3rem;
@@ -36,6 +45,6 @@
    .linkimg {
     width: 4rem;
     height: 5rem;
-    margin-left: 2rem;
+    margin-left: 3rem;
    }
   }
